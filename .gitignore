@@ -1,0 +1,51 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# Qt Creator
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+*.user
+*.user.*
+*.autosave
+*.pro.user*
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiled objects
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Executables (в examples)
+examples/*/logger_demo
+examples/*/ftp_upload
+!examples/*/*.cpp
+!examples/*/*.h
+!examples/*/CMakeLists.txt
